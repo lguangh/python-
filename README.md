@@ -22,7 +22,7 @@ def fun(a):
 fun(a)
 print a  # 1
 ```
-# Nginx服务器
+## Nginx服务器
 色粉色的
 ## 负载均衡
 
