@@ -8,7 +8,7 @@
 <!-- markdown-toc end -->
       
 # Nginx服务器
-## 什么是nginix
+## 什么是nginx
 ## 负载均衡
 
 
