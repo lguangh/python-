@@ -1,23 +1,9 @@
-
-#[你好 
-
-
-
-
+* [Python语言特性](#python语言特性)
+      * [1 Python的函数参数传递](#1-python的函数参数传递)
+      * [2 Python中的元类(metaclass)](#2-python中的元类metaclass)
+      * [3 @staticmethod和@classmethod](#3-staticmethod和classmethod)
 
 
-<div class="htmledit_views">
-                
-<h2 id="articleHeader0"><a name="t0"></a>文章来着https://segmentfault.com/a/1190000002729689</h2>
-<h2><a name="t1"></a>哈希 hash</h2>
-<h3 id="articleHeader1"><a name="t2"></a>原理</h3>
-<p>Hash （哈希，或者散列）函数在计算机领域，尤其是数据快速查找领域，加密领域用的极广。</p>
-<p><strong>其作用是将一个大的数据集映射到一个小的数据集上面（这些小的数据集叫做哈希值，或者散列值）</strong>。</p>
-<p>一个应用是Hash table（散列表，也叫哈希表），是根据哈希值 (Key value) 而直接进行访问的数据结构。也就是说，它通过把哈希值映射到表中一个位置来访问记录，以加快查找的速度。下面是一个典型的 hash 函数 / 表示意图：</p>
-<p><img alt="" src="https://segmentfault.com/img/bVlCe5" style="display:inline;"></p>
-<p>哈希函数有以下两个特点：</p>
-<ul><li>如果两个散列值是不相同的（根据同一函数），那么这两个散列值的原始输入也是不相同的。</li><li>散列函数的输入和输出不是唯一对应关系的，如果两个散列值相同，两个输入值很可能是相同的。但也可能不同，这种情况称为 “散列碰撞”（或者 “散列冲突”）。</li></ul><p>缺点： 引用吴军博士的《数学之美》中所言，哈希表的空间效率还是不够高。如果用哈希表存储一亿个垃圾邮件地址，每个email地址 对应 8bytes, 而哈希表的存储效率一般只有50%，因此一个email地址需要占用16bytes. 因此一亿个email地址占用1.6GB，如果存储几十亿个email address则需要上百GB的内存。除非是超级计算机，一般的服务器是无法存储的。</p>
-<p>所以要引入下面的 Bloom Filter。</p>
 <h2 id="articleHeader2"><a name="t3"></a>布隆过滤器 Bloom Filter</h2>
 <h3 id="articleHeader3"><a name="t4"></a>原理</h3>
 <p>如果想判断一个元素是不是在一个集合里，一般想到的是将集合中所有元素保存起来，然后通过比较确定。链表、树、散列表（又叫哈希表，Hash table）等等数据结构都是这种思路。但是随着集合中元素的增加，我们需要的存储空间越来越大。同时检索速度也越来越慢。</p>
