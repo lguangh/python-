@@ -4,7 +4,7 @@
 * [Python语言特性](#python语言特性)
     * [1、Python的函数参数传递](#1-python的函数参数传递)
          
-    * [nginx服务器](#nginx服务器)
+    * [Nginx服务器](#nginx服务器)
        * [负载均衡](#负载均衡)
      
 <!-- markdown-toc end -->
@@ -22,7 +22,7 @@ def fun(a):
 fun(a)
 print a  # 1
 ```
-## nginx服务器
+## Nginx服务器
 色粉色的
 ## 负载均衡
 
