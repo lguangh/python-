@@ -3,11 +3,8 @@
 
 * [Python语言特性](#python语言特性)
      * [1、Python的函数参数传递](#1-python的函数参数传递)
-     * [2、Python中的元类(metaclass)](#2-python中的元类metaclass)
-     * [3、@staticmethod和@classmethod](#3-staticmethod和classmethod)
-     
-     
-* [Nginx服务器](#Nginx)
+         
+* [Nginx服务器](#Nginx服务器)
      * [负载均衡](#负载均衡)
      
 <!-- markdown-toc end -->
@@ -25,7 +22,7 @@ def fun(a):
 fun(a)
 print a  # 1
 ```
-# Nginx
+# Nginx服务器
 色粉色的
 ## 负载均衡
 
