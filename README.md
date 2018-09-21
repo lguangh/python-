@@ -2,7 +2,7 @@
 **Table of Contents**
          
 * [Nginx服务器](#nginx服务器)
-	* [什么是Nginx?](#什么是ningx)
+	* [什么是Nginx?](#什么是nginx)
 	* [负载均衡](#负载均衡)
      
 <!-- markdown-toc end -->
