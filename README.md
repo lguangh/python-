@@ -7,7 +7,8 @@
       *[3 @staticmethod和@classmethod](#3-staticmethod和classmethod)
 * [Nginx服务器](#Nginx服务器)
      *[负载均衡](#负载均衡)
-      
+     
+<!-- markdown-toc end -->
       
 # Python语言特性
 
@@ -23,7 +24,7 @@ fun(a)
 print a  # 1
 ```
 # Nginx服务器
-
+     色粉色的
 ## 负载均衡
 
 
