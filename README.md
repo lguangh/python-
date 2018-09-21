@@ -2,7 +2,7 @@
 **Table of Contents**
 
 * [Python语言特性](#python语言特性)
-     * [1、Python的函数参数传递](#1-python的函数参数传递)
+    * [1、Python的函数参数传递](#1-python的函数参数传递)
          
 * [Nginx服务器](#Nginx服务器)
      * [负载均衡](#负载均衡)
