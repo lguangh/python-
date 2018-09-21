@@ -1,29 +1,14 @@
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-generate-toc again -->
 **Table of Contents**
-
-* [Python语言特性](#python语言特性)
-    * [1、Python的函数参数传递](#1-python的函数参数传递)
          
 * [Nginx服务器](#nginx服务器)
-    * [负载均衡](#负载均衡)
+	* [什么是Nginx?](#什么是ningx)
+	* [负载均衡](#负载均衡)
      
 <!-- markdown-toc end -->
       
-# Python语言特性
-
-## 1 Python的函数参数传递
-
-看两个例子:
-
-```python
-a = 1
-def fun(a):
-    a = 2
-fun(a)
-print a  # 1
-```
-## Nginx服务器
-色粉色的
+# Nginx服务器
+##什么是nginix
 ## 负载均衡
 
 
